@@ -1,0 +1,103 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background-color: black;
+}
+
+header {
+    background-image: url('../assets/copy1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+header {
+    flex-grow: 1;
+    min-height: 90vh;
+    
+}
+
+footer {
+    background-color: black;
+}
+
+/*contact*/  
+#iconemail {
+    width: 60px;
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto;
+    
+}  
+
+.bi-envelope {
+    font-size: 24px;
+}
+
+/*gallery */
+.gallery-img {
+    width: 100%;
+    height: 400px; /* Atur tinggi tetap untuk gambar */
+    object-fit: cover; /* Memastikan gambar menutupi area */
+    border-radius: 8px; /* Sudut melengkung */
+    transition: transform 0.3s;
+}
+.gallery-img:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+/*Pricing*/
+#section_pricing .container {
+    max-width: 1200px; /* Sesuaikan lebar sesuai dengan latar belakang */
+    margin: 0 auto; /* Agar berada di tengah */
+}
+
+.card {
+}
+
+.card-body {
+    overflow-y: auto; /* Jika konten terlalu panjang, tambahkan scrollbar vertikal */
+    max-height: 250px; /* Sesuaikan tinggi konten card */
+}
+.card {
+    max-width: 250px; /* Sesuaikan ukuran maksimal card */
+    margin: 0 auto; /* Buat card berada di tengah */
+}
+.card-body {
+    padding: 10px; /* Kurangi padding untuk memperkecil ukuran card */
+}
+.card-img-top {
+    max-height: 150px; /* Batasi tinggi gambar agar proporsional */
+    object-fit: cover; /* Agar gambar tetap rapi dalam card */
+    width: 100%; /* Gambar mengambil seluruh lebar kolom */
+    height: auto; /* Menjaga rasio aspek gambar */
+}
+
+.card, .card-body {
+    padding: 0;
+}
+/*Verify*/
+.auth-container {
+    background-color: #f8f9fa; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 30px; /* Padding untuk area konten */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+}
+.auth-header {
+    background-color: #004085; /* Warna header */
+    color: white; /* Warna teks */
+    padding: 10px; /* Padding untuk header */
+    border-radius: 8px 8px 0 0; /* Sudut melengkung di bagian atas */
+}
+
+#result {
+color: grey; /* Mengubah warna teks menjadi putih */
+}
+
+
+

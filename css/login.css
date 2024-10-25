@@ -1,0 +1,87 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    border-radius: 0px;
+  }
+  .card-header {
+    text-align: center;
+    background-color: #004085;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    
+  }
+  .form-control {
+    border-radius: 5px;
+  }
+  .btn-login {
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+  }
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background-color: black;
+}
+
+header {
+    background-image: url('../assets/copy1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+header {
+    flex-grow: 1;
+    min-height: 90vh;
+    
+}
+
+footer {
+    background-color: black;
+}
+
+/*Register*/
+body {
+    background-color: #f8f9fa;
+  }
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    border-radius: 15px;
+  }
+  .card-header {
+    text-align: center;
+    background-color: #004085;
+    color: white;
+    border-radius: 15px 15px 0 0;
+  }
+  .form-control {
+    border-radius: 5px;
+  }
+  .btn-register {
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+  }
+  .btn-register:hover {
+    background-color: #007bff;
+  }

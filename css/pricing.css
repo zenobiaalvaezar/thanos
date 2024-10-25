@@ -1,0 +1,29 @@
+#section_pricing .container {
+    max-width: 1200px; /* Sesuaikan lebar sesuai dengan latar belakang */
+    margin: 0 auto; /* Agar berada di tengah */
+}
+
+.card {
+}
+
+.card-body {
+    overflow-y: auto; /* Jika konten terlalu panjang, tambahkan scrollbar vertikal */
+    max-height: 250px; /* Sesuaikan tinggi konten card */
+}
+.card {
+    max-width: 250px; /* Sesuaikan ukuran maksimal card */
+    margin: 0 auto; /* Buat card berada di tengah */
+}
+.card-body {
+    padding: 10px; /* Kurangi padding untuk memperkecil ukuran card */
+}
+.card-img-top {
+    max-height: 150px; /* Batasi tinggi gambar agar proporsional */
+    object-fit: cover; /* Agar gambar tetap rapi dalam card */
+    width: 100%; /* Gambar mengambil seluruh lebar kolom */
+    height: auto; /* Menjaga rasio aspek gambar */
+}
+
+.card, .card-body {
+    padding: 0;
+}

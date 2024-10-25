@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CRUD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Simple CRUD with Local Storage</h1>
+    
+    <form id="crudForm">
+        <input type="text" id="name" placeholder="Enter Name" required>
+        <input type="text" id="email" placeholder="Enter Email" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <table id="crudTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('image.png'); /* Background dari gambar */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .contact-section {
+            background-color: rgba(0, 0, 0, 0.7); /* Overlay hitam transparan */
+            padding: 50px;
+            border-radius: 10px;
+            color: white;
+        }
+        .form-control {
+            background-color: rgba(255, 255, 255, 0.8); /* Warna input */
+            border: none;
+        }
+        .btn-send {
+            background-color: #f44336;
+            color: white;
+            border: none;
+        }
+        .btn-send:hover {
+            background-color: #d32f2f;
+        }
+        .contact-info i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <!-- Form Kontak -->
+        <div class="col-lg-6 contact-section">
+            <h2 class="mb-4">Special Addition</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="tel" class="form-control" placeholder="Phone" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-send w-100">SEND MESSAGE</button>
+            </form>
+        </div>
+
+        <!-- Informasi Kontak -->
+        <div class="col-lg-4 text-white contact-section ms-4">
+            <h2 class="mb-4">Contact Us</h2>
+            <div class="contact-info">
+                <p><i class="bi bi-envelope"></i>Email: orders@evolvebiolabs.store</p>
+                <p><i class="bi bi-geo-alt"></i>Location: Evolve Biolabs</p>
+                <p><i class="bi bi-globe"></i>Website: www.evolvebiolabs.com</p>
+                <h4 class="mt-4">Follow Us:</h4>
+                <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white me-2"><i class="bi bi-google"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+</body>
+</html>
+
+</body>
+</html>
